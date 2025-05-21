@@ -4,6 +4,6 @@
       "NEXT_USE_BUILD_CACHE": "false"
     }
   },
-  "installCommand": "pnpm install --force",
+  "installCommand": "pnpm install",
   "buildCommand": "next build"
 }
