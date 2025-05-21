@@ -1,0 +1,9 @@
+{
+  "build": {
+    "env": {
+      "NEXT_USE_BUILD_CACHE": "false"
+    }
+  },
+  "installCommand": "pnpm install --force",
+  "buildCommand": "next build"
+}

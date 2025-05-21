@@ -3,7 +3,13 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "pnpm rebuild bcrypt --build-from-source"
+  },
+  "pnpm": {
+    "overrides": {
+      "bcrypt": "^5.1.1"
+    }
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
